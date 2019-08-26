@@ -1,0 +1,16 @@
+UPDATE - June 09, 2018
+=====================================================================
+1. Bug Fix: Image Divider Disappear on Chrome 67
+---------------------------------------------------------------------
+line 1346 - 1356 (style.css)
+.image-divider {
+   position:relative;
+   background-size:cover;
+   -webkit-background-size:cover;
+   background-attachment: scroll;
+   background-position:center center;
+   background-repeat:no-repeat;
+   color:#FFF;
+   overflow:hidden;
+   -webkit-backface-visibility: hidden;
+}
