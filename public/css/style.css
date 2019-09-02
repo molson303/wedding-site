@@ -2817,12 +2817,13 @@ form .has-error .btn-primary{
 /* 13.4 Footer Section				 			 */
 /* ----------------------------------------------*/
 footer .image-divider.fixed-height{
-	height:600px;
+	height:800px;
 }
 
 #thank{
 	font-family: 'Great Vibes', cursive; 
 	font-size:85px;
+	margin-top: 300px; 
 }
 
 #you{
@@ -3082,12 +3083,13 @@ footer .image-divider.fixed-height{
 /* 16.3 Counting Section						 */
 /* ----------------------------------------------*/
 #counting-wrapper{
-	margin-bottom:50px
+	margin-bottom:100px
 }
 
 #counting{
 	font-family: 'Great Vibes', cursive; 
 	font-size:78px;
+	margin-top: 150px;
 }
 
 /* ----------------------------------------------*/
