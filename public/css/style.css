@@ -2243,7 +2243,14 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 /* ----------------------------------------------*/
 .photo-item img {
 	width:100%;
-	min-height: 340px;
+	min-height: 300px;
+	max-height: 300px;
+}
+
+.photo-item.couple img {
+	width: 100%;
+	min-height: 600px;
+	max-height: 600px;
 }
 
 /* ----------------------------------------------*/
