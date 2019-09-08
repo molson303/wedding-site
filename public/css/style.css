@@ -2270,6 +2270,12 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	min-height: 550px;
 	max-height: 550px;
 }
+
+.photo-item.fourhundred img {
+	width: 100%;
+	min-height: 400px;
+	max-height: 400px;
+}
 /* ----------------------------------------------*/
 /* 10.2 Layer 								 	 */
 /* ----------------------------------------------*/
