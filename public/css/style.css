@@ -2247,12 +2247,29 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	max-height: 300px;
 }
 
-.photo-item.couple img {
+.photo-item.sixhundred img {
 	width: 100%;
 	min-height: 600px;
 	max-height: 600px;
 }
 
+.photo-item.eighthundred img {
+	width: 100%;
+	min-height: 800px;
+	max-height: 800px;
+}
+
+.photo-item.sixfifty img {
+	width: 100%;
+	min-height: 650px;
+	max-height: 650px;
+}
+
+.photo-item.fivefifty img {
+	width: 100%;
+	min-height: 550px;
+	max-height: 550px;
+}
 /* ----------------------------------------------*/
 /* 10.2 Layer 								 	 */
 /* ----------------------------------------------*/
