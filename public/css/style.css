@@ -244,7 +244,7 @@ h4, .h4{
 }
 
 h5, .h5{
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing:2px;
   margin:20px 0;
   line-height:24px;
@@ -1719,6 +1719,11 @@ hr.line-divider{
 	margin-bottom:40px;
 }
 
+.intro-text-broadmoor {
+	margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 /*-----------------------------------------------*/
 /* 07.1.12 Divider Quote						*/
 /*-----------------------------------------------*/
@@ -2242,39 +2247,43 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 /* 10.1 Image 									 */
 /* ----------------------------------------------*/
 .photo-item img {
-	width:100%;
-	min-height: 300px;
-	max-height: 300px;
+	width: 100%;
+	height: 100%
+}
+
+.photo-item .img-thumbnail {
+	width: 100%;
+	min-height: 315px;
+	max-height: 315px;
 }
 
 .photo-item.sixhundred img {
 	width: 100%;
-	min-height: 600px;
-	max-height: 600px;
+	height: 100%
 }
 
 .photo-item.eighthundred img {
 	width: 100%;
-	min-height: 800px;
-	max-height: 800px;
+	height: 100%
+
 }
 
 .photo-item.sixfifty img {
 	width: 100%;
-	min-height: 650px;
-	max-height: 650px;
+	height: 100%
+
 }
 
 .photo-item.fivefifty img {
 	width: 100%;
-	min-height: 550px;
-	max-height: 550px;
+	height: 100%
+
 }
 
 .photo-item.fourhundred img {
 	width: 100%;
-	min-height: 400px;
-	max-height: 400px;
+	height: 100%
+
 }
 /* ----------------------------------------------*/
 /* 10.2 Layer 								 	 */
@@ -2989,6 +2998,10 @@ footer .image-divider.fixed-height{
 	margin:27px 0 10px 0
 }
 
+.blue-text{
+	color: #0abab5;
+}
+
 .card-name{
 	font-family: 'Great Vibes', cursive; 
 	font-size:42px; 
@@ -3005,6 +3018,7 @@ footer .image-divider.fixed-height{
 	text-align:center; 
 	padding:50px 40px;
 	margin-bottom:30px;
+	min-height: 350px;
 }
 
 .gift-desc{
