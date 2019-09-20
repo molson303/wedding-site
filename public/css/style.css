@@ -2259,8 +2259,8 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 
 .photo-item .img-thumbnail {
 	width: 100%;
-	min-height: 315px;
-	max-height: 315px;
+	min-height: 280px;
+	max-height: 280px;
 }
 
 .photo-item.sixhundred img {
@@ -2874,9 +2874,9 @@ footer .image-divider.fixed-height{
 #you{
 	font-family: 'Great Vibes', cursive; 
 	font-size:85px; 
-	margin-top:40px; 
-	margin-bottom:80px; 
-	margin-left:15px
+	margin-top:50px; 
+	margin-bottom:80px;
+	margin-right: 15px; 
 }
 
 #footer-couplename-wrapper{
