@@ -269,7 +269,7 @@
 				
 				main_menu.find("a").first().addClass("active");		
 						
-    		},{offset: '-200px'});
+    		});
 		
 			//Other Section
 			var section_waypoint = $('#content section').waypoint(function(direction) {
@@ -278,12 +278,12 @@
 			
                 main_menu.find("a").each(function(){						
 					if ($thisID == $(this).attr("href")){
-						$(this).addClass("active").parent().siblings().find("a").removeClass("active");
+						$(this).addClass("active").parent().siblings().find("a").removeClass("active")
 					}
 				});          
 				
 				
-    		},{offset: '-20px'});
+    		},{offset: '100px'});
 		}	
 				
 		
