@@ -2263,6 +2263,13 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 	max-height: 280px;
 }
 
+@media screen and (max-width: 768px) {
+	.photo-item .img-thumbnail {
+		height: auto;
+		min-height: auto;
+		max-height: 100%;
+}
+
 .photo-item.sixhundred img {
 	width: 100%;
 	height: 100%
