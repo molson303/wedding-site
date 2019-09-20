@@ -2268,6 +2268,7 @@ a.de-button.large.rounded, span.de-button.large.rounded, input[type=submit].larg
 		height: auto;
 		min-height: auto;
 		max-height: 100%;
+	}
 }
 
 .photo-item.sixhundred img {
