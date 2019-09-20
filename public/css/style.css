@@ -1406,6 +1406,12 @@ img.rounded{
 	padding:0;
 }
 
+.image-divider.broadmoorImage.fixed-height {
+	height: auto;
+	width:100%;
+	padding:0;
+}
+
 /* 07.1.4 Space and Line Divider				 */
 /* ----------------------------------------------*/
 .space-divider{
