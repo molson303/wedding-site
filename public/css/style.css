@@ -1714,6 +1714,10 @@ hr.line-divider{
 .section-block, .content-block{
 	padding:90px 0;
 }
+.section-block.rsvp-content-block {
+	background-color:#f4f3f3;
+	padding:150px 0;
+}
 
 .section-block.more-grey,
 .content-block.more-grey{
@@ -2143,7 +2147,9 @@ a.de-button:hover, input[type=submit]:hover{
 	color:#FFF;
 	text-decoration:none;
 }
-
+button.btn-money a{
+	color:#FFF;
+}
 /* 09.1.2 Outline Dark	 					 	 */
 /* ---------------------------------------------- */
 a.de-button.outline.dark-1, span.de-button.outline.dark-1, input[type=submit].outline.dark-1{

@@ -274,9 +274,8 @@
 			//Other Section
 			var section_waypoint = $('#content section').waypoint(function(direction) {
 				
-				var $thisID = "#" + this.element.id;
-			
-                main_menu.find("a").each(function(){						
+			var $thisID = "#" + this.element.id;
+        main_menu.find("a").each(function(){						
 					if ($thisID == $(this).attr("href")){
 						$(this).addClass("active").parent().siblings().find("a").removeClass("active")
 					}
